@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fact-Checking Dashboard</h1>
+    <form id="fact-check-form">
+      <label for="statement">Enter a statement to fact-check:</label>
+      <textarea id="statement" name="statement" required></textarea>
+      <button type="submit">Check Fact</button>
+    </form>
+    <div id="result-container" style="display:none;">
+      <h3>Fact-Check Result:</h3>
+      <p id="result"></p>
+    </div>
+    <button id="logout-btn">Logout</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
